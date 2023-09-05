@@ -21,7 +21,7 @@ def about(): # put application's code here
 
 @app.route('/contact/')
 def contacts(): # put application's code here
-    return render_template('contacts.html')
+    return render_template('contact.html')
 
 
 if __name__ == '__main__':
